@@ -7,7 +7,7 @@ let refri = document.querySelector("#refri");
 let btn = document.querySelector("#btn");
 
 function comandaPizza() {
-    let totalPedido = (refri.value * 7.00) + 57.00;
+    let totalPedido = (refri.value * 7.00) + 48.00;
 
     let mensagem = "Sabor 1: " + sabor1.value + "<br>" +
         "Sabor 2: " + sabor2.value + "<br>" +
